@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naresh Kumar | Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Naresh Kumar, CITS trainee (CSA) at NSTI Kanpur. Skills, education, SmartDoc AI project and certifications.">
+<meta property="og:title" content="Naresh Kumar | Aspiring Software Developer">
+<meta property="og:description" content="CITS trainee at NSTI Kanpur. View my projects, skills and certificates.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231d4ed8'/><text x='50' y='67' font-size='48' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'>NK</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#home">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo">Naresh Kumar</a>
+    <nav id="menu" aria-label="Main">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#training">Training</a><a href="#certifications">Certificates</a><a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" class="icon-btn" aria-label="Switch light or dark theme"><i class="fa-solid fa-moon"></i></button>
+    <button id="burger" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="hello">Hello, I am</p>
+      <h1>Naresh Kumar</h1>
+      <p class="role">Aspiring Software Developer &middot; CITS Trainee (CSA)</p>
+      <p class="lead">I am a fresher from Kanpur learning software development at NSTI Kanpur. I build projects with Python, Flask and web technologies.</p>
+      <div class="btns">
+        <a class="btn primary" href="assets/documents/resume.pdf" download>Download Resume</a>
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+      <div class="social">
+        <a href="https://github.com/rjnareshkumar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rjnaresh-kumar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:rjnareshkumar124@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="photo" id="photo">
+      <img src="assets/images/profile.jpg" alt="Portrait of Naresh Kumar" width="350" height="467" onerror="this.parentNode.classList.add('nophoto');this.remove()">
+      <span class="initials" aria-hidden="true">NK</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec reveal">
+  <div class="wrap narrow">
+    <h2>About me</h2>
+    <p>I am Naresh Kumar, a motivated fresher currently training in the CITS programme (trade: CSA) at NSTI Kanpur. Before this, I completed my ITI in COPA at Govt. ITI Kotra, Udaipur, Rajasthan in 2024.</p>
+    <p>I work with Python, MySQL and HTML, and I use MS Office and Hindi and English typing in daily work. My main project is SmartDoc AI, a study assistant that turns PDFs into summaries and practice questions. I am looking for an entry-level opportunity in IT and software where I can keep learning.</p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="sec alt reveal">
+  <div class="wrap narrow"><h2>Education</h2><ol class="timeline" id="edu-list"></ol></div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="sec reveal">
+  <div class="wrap"><h2>Skills</h2><div class="grid3" id="skill-list"></div></div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="sec alt reveal">
+  <div class="wrap"><h2>Projects</h2><div class="grid2" id="project-list"></div></div>
+</section>
+
+<!-- TRAINING -->
+<section id="training" class="sec reveal">
+  <div class="wrap narrow">
+    <h2>Training</h2>
+    <div class="card">
+      <h3>Craft Instructor Training Scheme (CITS), Trade: CSA</h3>
+      <p class="muted">NSTI Kanpur &middot; Session 2026&ndash;27 &middot; Currently pursuing</p>
+      <p>I am receiving practical, hands-on training in my trade at NSTI Kanpur. <!-- TODO: add training topics or duration if you want to share more --></p>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="sec alt reveal">
+  <div class="wrap"><h2>Certifications</h2><div class="grid2" id="cert-list"></div></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec reveal">
+  <div class="wrap narrow">
+    <h2>Contact</h2>
+    <p>Open to entry-level roles and learning opportunities. Reach me here:</p>
+    <ul class="contact">
+      <li><i class="fa-solid fa-envelope"></i><a href="mailto:rjnareshkumar124@gmail.com">rjnareshkumar124@gmail.com</a> <button id="copy" class="mini">Copy email</button></li>
+      <li><i class="fa-solid fa-phone"></i><a href="tel:+918852047544">+91 8852047544</a></li>
+      <li><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/rjnaresh-kumar" target="_blank" rel="noopener noreferrer">linkedin.com/in/rjnaresh-kumar</a></li>
+      <li><i class="fa-brands fa-github"></i><a href="https://github.com/rjnareshkumar" target="_blank" rel="noopener noreferrer">github.com/rjnareshkumar</a></li>
+      <li><i class="fa-solid fa-location-dot"></i>Kanpur, Uttar Pradesh, India</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<noscript><p class="wrap" style="padding:1rem">Please enable JavaScript to see skills, projects and certificates. You can also <a href="assets/documents/resume.pdf">download my resume</a>.</p></noscript>
+<footer><div class="wrap">&copy; <span id="year">2026</span> Naresh Kumar</div></footer>
+<button id="top" class="icon-btn top" aria-label="Back to top" hidden><i class="fa-solid fa-arrow-up"></i></button>
+<script src="js/script.js"></script>
+</body>
+</html>
